@@ -46,13 +46,13 @@ waitThenRun(function () {
 // the number by 10 however many times it takes to get a number that is greater than or equal to 1000000 and return that.
 
 function strangeNumbers(number) {
-    if (number <= 0 || isNaN(number) === "true" || typeof number !== "number") {
+    if (number <= 0 || isNaN(number) || typeof number !== "number") {
         return "ERROR";
-    }
-    if (number > 0 && number < 1000000) {
-        do {
-            number * 10;
-        } while (number >= 1000000);
+    } else if (number > 0 && number < 1000000) {
+        console.log("I am in the if");
+        while (number < 1000000) {
+            number = number * 10;
+        }
         return number;
     } else {
         return number;

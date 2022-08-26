@@ -5,7 +5,6 @@
 
 header {
     padding: 10px;
-    border: 1px gray dashed;
     height: 70px;
     position: relative;
 }
@@ -32,7 +31,8 @@ header {
     height: 400px;
     width: 100%;
     position: relative;
-    background-image: url("\\wsl.localhost\Ubuntu\home\lennardmg\Juniper\juniper-code\Week1\Day2\assets\spices.jpg");
+    background-image: url("./assets/spices.jpg");
+    background-position: center;
     background-size: cover;
 }
 /*I dont understand why it doesn't show the background picture ...*/
@@ -44,6 +44,7 @@ header {
     left: 30%;
     font-size: 40px;
     font-style: italic;
+    color: white;
 }
 
 #getStarted {
@@ -96,6 +97,11 @@ header {
     bottom: 50px;
     right: 200px;
     font-size: 20px;
+}
+
+#topLeftPic {
+    height: 30px;
+    width: 30px;
 }
 
 footer {
