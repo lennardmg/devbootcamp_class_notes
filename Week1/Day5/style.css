@@ -1,0 +1,56 @@
+.container * {
+    margin: auto;
+}
+
+#head {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#body {
+    height: 300px;
+    width: 5px;
+    background-color: black;
+}
+
+.armleft {
+    height: 150px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    transform: rotate(45deg);
+    transform-origin: bottom center;
+    top: -500px;
+}
+
+.armright {
+    height: 150px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    transform: rotate(-45deg);
+    transform-origin: bottom center;
+    top: -350px;
+}
+
+.legleft {
+    height: 150px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    transform: rotate(135deg);
+    transform-origin: bottom center;
+    top: -600px;
+}
+
+.legright {
+    height: 150px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    transform: rotate(-135deg);
+    transform-origin: bottom center;
+    top: -450px;
+}
