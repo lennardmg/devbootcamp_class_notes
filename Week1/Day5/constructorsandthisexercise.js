@@ -44,3 +44,30 @@ console.log(rect.getArea()); //20
 // but with the cases of the alphabetic characters switched. Uppercase characters should become lowercase
 // and lowercase letters should become uppercase. Characters that are not alphabetic should not change.
 // The toUpperCase and toLowerCase methods that all strings have will come in handy here.
+
+// var trialText = "Hello World";
+// var newText = trialText.toLowerCase();
+// console.log(newText);
+
+// var testText = ["g", "G"];
+// var firstLetter = testText[0];
+// console.log("g" == firstLetter.toUpperCase(), "g" == "G");
+
+function invertCase(string) {
+    var newString = "";
+    for (var i = 0; i < string.length; i++) {
+        var character = string[i];
+        if (character == character.toLowerCase()) {
+            newString += character.toUpperCase();
+        } else if (character == character.toUpperCase()) {
+            newString += character.toLowerCase();
+        } else newString += character;
+    }
+    return newString;
+}
+
+var trialString = "I Will Try Something Out HERE 12345 öÄü #+*~§/ .,-small BIG";
+console.log(invertCase(trialString));
+
+//could also work with split() und map().
+// or .toArray().
