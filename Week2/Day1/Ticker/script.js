@@ -27,11 +27,12 @@ console.log("hi");
     var headlines = document.getElementById("headlines"); // element itself
     var left = headlines.offsetLeft; //starting left position of element
     var links = document.getElementsByTagName("a");
+    var reqId; // for part 2, here i defign it globally, later in the moveHeadlines function i assign it a new local value.
 
-    console.log("links: ", links); //array-like object
+    // console.log("links: ", links); //array-like object
 
-    console.log("headlines ", headlines);
-    console.log("left position of headlines: ", left);
+    // console.log("headlines ", headlines);
+    // console.log("left position of headlines: ", left);
 
     function moveHeadlines() {
         // deacrease value of left by 1px
@@ -44,9 +45,35 @@ console.log("hi");
             console.log("left after moving it right: ", left);
             headlines.appendChild(document.getElementsByTagName("a")[0]);
         }
-        console.log("left value after decrementing: ", left);
+        // console.log("left value after decrementing: ", left);
         headlines.style.left = left + "px";
-        requestAnimationFrame(moveHeadlines);
+
+        reqId = requestAnimationFrame(moveHeadlines);
     }
-    moveHeadlines();
+    moveHeadlines(); // you need to call the function in order for it to work
+
+    // lesson two, makes the loop stop, hightlight link, afterwards go on and remove highlight:
+
+    for (var i = 0; i < links.length; i++) {
+        console.log(links[i]);
+
+        links[i].addEventListener("mouseenter", function (e) {
+            console.log("e", e);
+            // to do: 1) make the ticker stop 2) highlight link
+            e.currentTarget.style.fontSize = "18px"; // oder: this
+            this.style.color = "red";
+            e.currentTarget.style.fontStyle = "italic";
+            cancelAnimationFrame(reqId); //makes the animationframe stop at the point of time when the mouse enters it
+            console.log(reqId);
+        });
+
+        links[i].addEventListener("mouseleave", function (e) {
+            console.log("left this element", e.target);
+            // to do: 1) restart ticker 2) update style of the link again
+            e.currentTarget.style.fontSize = "16px";
+            e.currentTarget.style.color = "";
+            e.currentTarget.style.fontStyle = "";
+            moveHeadlines(); // make the animationframe start again
+        });
+    }
 })();

@@ -19,6 +19,7 @@
 
 #headlines a {
     padding-right: 30px;
+    font-size: 16px;
 }
 
 /* #headlines a:nth-child(even) {
