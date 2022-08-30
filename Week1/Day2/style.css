@@ -100,8 +100,23 @@ header {
 }
 
 #topLeftPic {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+#topRightPic {
+    height: 40px;
+    width: 40px;
+}
+
+#bottomLeftPic {
+    height: 40px;
+    width: 40px;
+}
+
+#bottomRightPic {
+    height: 40px;
+    width: 40px;
 }
 
 footer {
