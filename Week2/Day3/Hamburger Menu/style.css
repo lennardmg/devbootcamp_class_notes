@@ -1,0 +1,32 @@
+* {
+    background-color: darkcyan;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    transition: all 500ms linear;
+    /* anything that happens to the box, will have a transition */
+}
+
+/* #move {
+} */
+
+.move-right {
+    transform: translateX(200px);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.3);
+}

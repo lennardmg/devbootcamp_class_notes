@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px;
+    height: 70px;
+    position: relative;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+#picLogo {
+    height: 40px;
+    width: 200px;
+}
+
+#menu-button {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#spices {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-image: url("./assets/spices.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*I dont understand why it doesn't show the background picture ...*/
+
+#welcomeText {
+    position: absolute;
+    display: inline-block;
+    top: 35%;
+    left: 25%;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+
+#getStarted {
+    background-color: rgb(255, 217, 0);
+    border: 4px solid orange;
+    border-radius: 50px;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    position: absolute;
+    padding: 5px;
+    display: inline-block;
+    top: 50%;
+    left: 40%;
+}
+
+#text {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(168, 164, 164);
+    /* position: relative; */
+}
+
+.texts {
+    width: 100%;
+    height: 200px;
+    border: 3px solid green;
+    float: left;
+}
+
+.innerTexts {
+    width: 50%;
+    height: 200px;
+    border: 2px solid blue;
+    float: left;
+}
+
+.imagesLeft {
+    float: right;
+    width: 30%;
+    height: 200px;
+}
+
+.imagesRight {
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+
+.textsLeft {
+    height: 200px;
+    width: 70%;
+    float: right;
+    margin: 10px;
+}
+
+.textsRight {
+    height: 200px;
+    width: 70%;
+    float: left;
+    margin: 10px;
+}
+
+.picturesLeft {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    float: right;
+    margin: 10px;
+}
+
+.picturesRight {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    float: left;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(69, 65, 65);
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#overlay {
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    position: fixed;
+    z-index: 150;
+    min-height: 100%;
+    width: 300px;
+    background-color: white;
+    font-size: 28px;
+    list-style-type: none;
+    top: 0;
+    right: -300px;
+    transition: all 1000ms ease-out;
+}
+
+.menu li {
+    margin: 20px 40px;
+}
+
+#top-li {
+    margin: 60px 40px 20px 40px;
+}
+
+#logOut {
+    font-size: 18px;
+    margin: 40px 40px;
+}
+
+#x-button {
+    float: right;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+/* when changing screen size, the divs should have:
+margin: auto;
+float: none;
+width: fit content;
+
+and the body should have: 
+body:
+min-width: 450px; */
