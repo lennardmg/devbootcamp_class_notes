@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.outterFlexbox {
+height: 200px;
+display: flex;
+}
+
+.innerFlexbox {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+#innerFlexbox1 {
+    background-color: grey;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#innerFlexbox2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+#innerFlexbox3 {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#innerFlexbox4 {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+}
+
+.innerInnerBox {
+    width: 100px;
+    height: 100px;
+}
+
+#innerInnerBox1 {
+    background-color: orange;
+}
+
+#innerInnerBox2 {
+    background-color: yellow;
+}
+
+#innerInnerBox3 {
+    background-color: green;
+}
+
+#innerInnerBox4 {
+    background-color: pink;
+}
