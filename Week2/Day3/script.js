@@ -117,4 +117,32 @@
     // stickfigure movement:
     var canvas3 = document.getElementById("canvas3");
     var ctx3 = canvas3.getContext("2d");
+    var x = 150;
+    var y = 150;
+
+
+var pageload = window.addEventListener("load", function() {
+ctx3.drawImage(canvas2, x, y);
+console.log("page has loaded");
+});
+
+document.addEventListener("keydown", function(e) {
+        if (e.keyCode === 39) {
+            x = x + 10;
+            ctx3.drawImage(canvas2, x, y);
+        } else if (e.keyCode === 37) {
+            x = x - 10;
+            ctx3.drawImage(canvas2, x, y);
+        } else if (e.keyCode === 40) {
+            y = y + 10;
+            ctx3.drawImage(canvas2, x, y);
+        } else if (e.keyCode === 38) {
+            y = y - 10;
+            ctx3.drawImage(canvas2, x, y);
+        }
+});
+
+  
+  
+
 })();
