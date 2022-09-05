@@ -121,24 +121,59 @@
     var y = 150;
 
 
-var pageload = window.addEventListener("load", function() {
+
+window.addEventListener("load", function() {
 ctx3.drawImage(canvas2, x, y);
 console.log("page has loaded");
 });
 
+var warning = document.getElementsByClassName("warning")[0];
+
 document.addEventListener("keydown", function(e) {
         if (e.keyCode === 39) {
-            x = x + 10;
-            ctx3.drawImage(canvas2, x, y);
+            if (x > 590) {
+                console.log("I wont go further than this.");
+                warning.classList.add("appear");
+            } else {
+                x = x + 10;
+                ctx3.clearRect(x - 10, y, 500, 500);
+                ctx3.drawImage(canvas2, x, y);
+                warning.classList.remove("appear");
+                warning.classList.add("disappear");
+            }
         } else if (e.keyCode === 37) {
+            if (x < - 190) {
+                console.log("I wont go further than this.");
+                warning.classList.add("appear");
+            } else {
             x = x - 10;
+            ctx3.clearRect(x + 10, y, 500, 500);
             ctx3.drawImage(canvas2, x, y);
+            warning.classList.remove("appear");
+            warning.classList.add("disappear");
+            }
         } else if (e.keyCode === 40) {
+            if (y > 290) {
+                console.log("I wont go further than this.");
+                warning.classList.add("appear");
+            } else {
             y = y + 10;
+            ctx3.clearRect(x, y - 10, 500, 500);
             ctx3.drawImage(canvas2, x, y);
+            warning.classList.remove("appear");
+            warning.classList.add("disappear");
+        }
         } else if (e.keyCode === 38) {
+            if (y < -140) {
+                console.log("I wont go further than this.");
+                warning.classList.add("appear");
+            } else {
             y = y - 10;
+            ctx3.clearRect(x, y + 10, 500, 500);
             ctx3.drawImage(canvas2, x, y);
+            warning.classList.remove("appear");
+            warning.classList.add("disappear");
+            }
         }
 });
 

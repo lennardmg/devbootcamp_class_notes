@@ -20,3 +20,21 @@ canvas {
     position: relative;
     left: 100px;
 }
+
+.warning {
+    background-color: red;
+    color: blue;
+    z-index: 1.2;
+    position: relative;
+    width: 200px;
+    left: -600px;
+}
+
+.disappear {
+    left: - 600px;
+}
+
+.appear {
+    bottom: 400px;
+    left: 450px;
+}
