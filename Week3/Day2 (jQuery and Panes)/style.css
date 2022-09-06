@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+}
+
+.container,
+.pane {
+  width: 530px;
+  height: 600px;
+}
+
+.divider,
+.pane {
+  position: absolute;
+}
+
+.pane {
+  user-select: none;
+  pointer-events: none;
+  /* object-fit: cover; */
+  overflow: hidden;
+}
+
+.divider {
+  height: 600px;
+  width: 3px;
+  background-color: gray;
+  cursor: col-resize;
+}

@@ -59,6 +59,8 @@ function each(objArr, callback) {
         console.log("itsneitherobjectnorarray");
     }
 }
+
+
 // var obj = {
 //     a: 1,
 //     b: 2,

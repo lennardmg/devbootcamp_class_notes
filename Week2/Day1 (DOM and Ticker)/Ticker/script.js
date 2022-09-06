@@ -1,4 +1,7 @@
 console.log("hi");
+console.log(jQuery);
+
+// this is the vanilla JS iife:
 
 (function () {
     // var box = document.getElementById("box");
@@ -76,4 +79,56 @@ console.log("hi");
             moveHeadlines(); // make the animationframe start again
         });
     }
+});
+
+
+
+// this is the jQuery iife:
+
+(function () {
+    var $headlines = $("#headlines");
+    var $left = $headlines.offset().left;
+    var $links = $("a");
+    var reqId;
+    
+    function moveHeadlines() {
+        $left -= 1;
+        
+        var $links = $("a");
+
+        if ($left <= -$links.eq(0).outerWidth()) {
+            console.log("first link is offscreen!");
+            $left += $links.eq(0).outerWidth();
+            console.log("left after moving it right: ", $left);
+            $headlines.append($links.eq(0));
+        }
+
+        $headlines.css({
+            left: $left,
+        });
+
+        reqId = requestAnimationFrame(moveHeadlines);
+    }
+    moveHeadlines();
+
+    $links.on("mouseenter", function (e) {
+        var $target = $(e.currentTarget);
+        $target.css({
+            fontSize: "18px",
+            color: "red",
+            fontStyle: "italic",
+        });
+        cancelAnimationFrame(reqId);
+    });
+
+    $links.on("mouseleave", function (e) {
+        var $target = $(e.currentTarget);
+        $target.css({
+            fontSize: "16px",
+            color: "",
+            fontStyle: "",
+        });
+        moveHeadlines();
+    });
+    
 })();
