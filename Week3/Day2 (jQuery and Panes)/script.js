@@ -13,6 +13,10 @@ divider.addEventListener(
     "mousedown",
     function (e) {
         container.addEventListener("mousemove", mouseMove);
-    },
-    { capture: true }
+    }
+    // { capture: true }
 );
+
+document.addEventListener("mouseup", function () {
+    container.removeEventListener("mousemove", mouseMove);
+});
