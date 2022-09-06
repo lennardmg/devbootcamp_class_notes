@@ -180,6 +180,26 @@ footer {
     cursor: pointer;
 }
 
+.modal {
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 150;
+    padding: 10px 20px;
+    left: -500px;
+    background-color: white;
+}
+
+.modal p {
+    margin-top: 20px;
+}
+
+#x-button2 {
+    float: right;
+    cursor: pointer;
+}
+
 /* when changing screen size, the divs should have:
 margin: auto;
 float: none;

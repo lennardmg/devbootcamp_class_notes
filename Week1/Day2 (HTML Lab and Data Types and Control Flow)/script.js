@@ -1,4 +1,4 @@
-console.log("test");
+// console.log("test");
 
 var menuButton = document.getElementById("menu-button");
 var menu = document.getElementsByClassName("menu")[0];
@@ -38,4 +38,41 @@ document.addEventListener("keydown", function (e) {
         overlay.style.right = "";
         overlay.style.left = "";
     }
+});
+
+
+// adding the modal to the page with jQuery:
+
+var $modal = $(".modal");
+var $overlay = $("#overlay");
+var $xButton = $("#x-button2");
+
+function atPageLoad() {
+    $modal.css({
+        left: "35%",
+        bottom: "45%",
+    });
+    $overlay.css({
+        top: "0",
+        bottom: "0",
+        right: "0",
+        left: "0",
+    });
+};
+
+$xButton.on("click", function() {
+$overlay.css({
+    top: "",
+    bottom: "",
+    right: "",
+    left: "",
+});
+$modal.css({
+    left: "-500px",
+    bottom: "",
+});
+});
+
+window.addEventListener("load", function () {
+setTimeout(atPageLoad, 1500);
 });
