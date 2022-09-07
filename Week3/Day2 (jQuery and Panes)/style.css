@@ -26,6 +26,8 @@
   background-color: gray;
   cursor: col-resize;
 }
+
+/* because one of the pictures has a different size than the other: */
 .leftPane {
   width: 0;
 }
