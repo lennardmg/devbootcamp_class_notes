@@ -13,7 +13,6 @@
         // console.log("results: ", results);
         // console.log("resultHtml: ", resultHtml);
         // console.log("resultingCountries: ", resultingCountries);
-
     }).on("focus", function () {
         results.show();
     }).on("mouseenter", function () {
@@ -53,7 +52,7 @@
                         };
                         
                 break;
-                
+
             case "Enter":
                         if (results[0].children[highlightIndex - 1].classList.contains("highlighted")) {
                         inputField.val(results[0].children[highlightIndex - 1].innerText);
