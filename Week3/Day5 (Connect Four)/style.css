@@ -1,0 +1,134 @@
+body {
+    background-color: olive;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+#button {
+    height: 100px;
+    width: 100px;
+    background-color: darkgray;
+    position: relative;
+    float: right;
+    bottom: 400px;  
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: grabbing;
+    box-shadow: 2px 5px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#animationPlayer1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: -40px;
+    bottom: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 5px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#animationPlayer2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: -120px;
+    bottom: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 5px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.spinCoin {
+animation: 2s infinite spinningCoin;
+}
+
+#board {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+/* this css for .slot and .hole supports the sliding animation */
+.slot {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    border: 50px solid blue;
+    border-radius: 50%;
+    position: relative;
+    left: -40px;
+    top: -40px;
+}
+
+/*  this css for .slot and .hole does NOT support sliding animation */
+/* .slot {
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: 10px;
+} */
+
+.player1 .hole {
+    background-color: red;
+}
+
+.player2 .hole {
+    background-color: yellow;
+}
+
+@keyframes winner {
+    0% {
+        background-color: rosybrown;
+    }
+
+    20% {
+        background-color: darkblue;
+    }
+
+    40% {
+        background-color: orange;
+    }
+
+    60% {
+        background-color: black;
+    }
+
+    80% {
+        background-color: magenta;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+@keyframes spinningCoin {
+    from { transform: rotateY(0rad); }
+    to { transform: rotateY(6.284rad); }
+}
