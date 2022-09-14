@@ -5,9 +5,37 @@
 
     
 
+
+
+
+
     inputField.on("input", function () {
-        var filteredCountries = getFilteredCountries(this.value);
-        showResults(filteredCountries);
+        // var filteredCountries = getFilteredCountries(this.value);
+        // showResults(filteredCountries);
+    var ajaxRequest = this.value
+    var requestLength = this.value.length
+     
+console.log(ajaxRequest);
+    $.ajax({
+    url: "https://spicedworld.herokuapp.com/",
+    data: {
+        q: ajaxRequest,
+    },
+    success: function (data) {
+        var ajaxData = ajaxRequest.length;
+        // console.log(ajaxData);
+        // console.log(typeof ajaxData);
+       setTimeout(function () {
+        if (ajaxData != requestLength) {
+            console.log("not the same anymore");
+            
+        } else {showResultsAjax(data)}
+       }, 1000)
+    },
+    });
+
+
+
 
         // console.log("filteredCountries: ", filteredCountries);
         // console.log("results: ", results);
@@ -15,6 +43,7 @@
         // console.log("resultingCountries: ", resultingCountries);
     }).on("focus", function () {
         results.show();
+
     }).on("mouseenter", function () {
         results.show();
     }).on("keydown", function (e) {
@@ -62,6 +91,8 @@
         }
     });
 
+
+
    // when the mouse moves over the results:
 results
     .on("mouseover", ".result", function (e) {
@@ -80,31 +111,50 @@ results
     });
 
 
+// to filter the countries from the array without the ajax request:
+    // function getFilteredCountries(searchCountry) {
+    //     if (searchCountry === "") {
+    //         return [];
+    //     }
+    //     return countries.filter(function (country) {
+    //         return country.toLowerCase().indexOf(searchCountry.toLowerCase()) === 0
+    //     }).slice(0, 4);
+    // };
 
-    function getFilteredCountries(searchCountry) {
-        if (searchCountry === "") {
-            return [];
-        }
-        return countries.filter(function (country) {
-            return country.toLowerCase().indexOf(searchCountry.toLowerCase()) === 0
-        }).slice(0, 4);
-    };
 
-    function showResults(resultingCountries) {
-        var resultHtml = "";
+// the function without ajax:
+    // function showResults(resultingCountries) {
+    //     var resultHtml = "";
 
-        if (resultingCountries.length === 0) {
-            resultHtml = "<em>No results</em>";
+    //     if (resultingCountries.length === 0) {
+    //         resultHtml = "<em>No results</em>";
+    //     } else {
+    //         resultingCountries.forEach(function (country) {
+    //             resultHtml += '<div title="';
+    //             resultHtml += country;
+    //             resultHtml += '" class="result">';
+    //             resultHtml += country;
+    //             resultHtml += '</div>';
+    //         });
+    //     }
+    //     results.html(resultHtml);
+    //     results.show();
+    // }
+
+    function showResultsAjax(resultingCountriesAjax) {
+        var resultHtmlAjax = "";
+           if (resultingCountriesAjax.length === 0) {
+            resultHtmlAjax = "<em>No results</em>";
         } else {
-            resultingCountries.forEach(function (country) {
-                resultHtml += '<div title="';
-                resultHtml += country;
-                resultHtml += '" class="result">';
-                resultHtml += country;
-                resultHtml += '</div>';
+            resultingCountriesAjax.forEach(function (country) {
+                resultHtmlAjax += '<div title="';
+                resultHtmlAjax += country;
+                resultHtmlAjax += '" class="result">';
+                resultHtmlAjax += country;
+                resultHtmlAjax += '</div>';
             });
         }
-        results.html(resultHtml);
+        results.html(resultHtmlAjax);
         results.show();
     }
 

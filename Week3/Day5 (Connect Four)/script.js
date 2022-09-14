@@ -3,7 +3,7 @@
 
     var allSlots = $(".slot");
 
-    // console.log(allSlots);
+    console.log(allSlots);
     // console.log(typeof allSlots);
     // Object.values(allSlots)[5];
     // console.log(Object.values(allSlots)[5]);
