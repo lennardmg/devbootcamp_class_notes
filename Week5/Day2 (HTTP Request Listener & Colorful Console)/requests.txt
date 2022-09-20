@@ -1,0 +1,108 @@
+Tue Sep 20 2022 16:40:04 GMT+0200 (Central European Summer Time)	GET	/	[object Object]Tue Sep 20 2022 16:40:04 GMT+0200 (Central European Summer Time)	GET	/favicon.ico	[object Object]Tue Sep 20 2022 16:43:15 GMT+0200 (Central European Summer Time)	GET	/	[object Object]Tue Sep 20 2022 16:43:15 GMT+0200 (Central European Summer Time)	GET	/favicon.ico	[object Object]Tue Sep 20 2022 16:46:43 GMT+0200 (Central European Summer Time)	GET	/	[object Object]
+Tue Sep 20 2022 16:46:43 GMT+0200 (Central European Summer Time)	GET	/favicon.ico	[object Object]
+Tue Sep 20 2022 16:48:57 GMT+0200 (Central European Summer Time)	GET	/testURL	[object Object]
+Tue Sep 20 2022 16:48:57 GMT+0200 (Central European Summer Time)	GET	/favicon.ico	[object Object]
+Tue Sep 20 2022 16:55:45 GMT+0200 (Central European Summer Time)	
+    GET	
+    /justtestingstuff	
+    [object Object]	
+    200
+Tue Sep 20 2022 16:55:45 GMT+0200 (Central European Summer Time)	
+    GET	
+    /favicon.ico	
+    [object Object]	
+    200
+Tue Sep 20 2022 16:58:37 GMT+0200 (Central European Summer Time)	 GET	 /anotherURL	 [object Object]	 200
+Tue Sep 20 2022 16:58:37 GMT+0200 (Central European Summer Time)	 GET	 /favicon.ico	 [object Object]	 200
+Tue Sep 20 2022 17:02:25 GMT+0200 (Central European Summer Time)	 GET	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:02:54 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 17:03:57 GMT+0200 (Central European Summer Time)	 PUT	 /	 [object Object]	 200
+Tue Sep 20 2022 17:04:15 GMT+0200 (Central European Summer Time)	 HEAD	 /	 [object Object]	 200
+Tue Sep 20 2022 17:07:45 GMT+0200 (Central European Summer Time)	 GET	 /hallo	 [object Object]	 200
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /hallo	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:07:58 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:08:04 GMT+0200 (Central European Summer Time)	 PUT	 /hallo	 [object Object]	 405
+Tue Sep 20 2022 17:08:12 GMT+0200 (Central European Summer Time)	 DELETE	 /hallo	 [object Object]	 405
+Tue Sep 20 2022 17:08:16 GMT+0200 (Central European Summer Time)	 HEAD	 /hallo	 [object Object]	 200
+Tue Sep 20 2022 17:11:48 GMT+0200 (Central European Summer Time)	 GET	 /newHello	 [object Object]	 200
+Tue Sep 20 2022 17:12:02 GMT+0200 (Central European Summer Time)	 HEAD	 /newHello	 [object Object]	 200
+Tue Sep 20 2022 17:13:36 GMT+0200 (Central European Summer Time)	 GET	 /andyetanotherhello	 [object Object]	 200
+Tue Sep 20 2022 17:18:04 GMT+0200 (Central European Summer Time)	 GET	 /letstryagain	 [object Object]	 200
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /letstryagain	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:16 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:18:42 GMT+0200 (Central European Summer Time)	 PUT	 /letstryagain	 [object Object]	 405
+Tue Sep 20 2022 17:18:57 GMT+0200 (Central European Summer Time)	 HEAD	 /letstryagain	 [object Object]	 200
+Tue Sep 20 2022 17:35:17 GMT+0200 (Central European Summer Time)	 GET	 /withgimenashelp	 [object Object]	 200
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /withgimenashelp	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:27 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /withgimenashelp	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:35:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:13 GMT+0200 (Central European Summer Time)	 POST	 /withgimenashelp4	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /withgimenashelp5	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:43:59 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 302
+Tue Sep 20 2022 17:47:56 GMT+0200 (Central European Summer Time)	 POST	 /withgimenashelp6	 [object Object]	 302
+Tue Sep 20 2022 17:47:56 GMT+0200 (Central European Summer Time)	 POST	 /	 [object Object]	 200
+Tue Sep 20 2022 18:01:19 GMT+0200 (Central European Summer Time)	 POST	 /anotherRequestToSeeIfMyRequestHeadersAreShownCorrectly	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","content-type":"application/json","content-length":"46","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 302
+Tue Sep 20 2022 18:01:19 GMT+0200 (Central European Summer Time)	 POST	 /	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","content-type":"application/json","content-length":"46","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 200
+Tue Sep 20 2022 18:02:22 GMT+0200 (Central European Summer Time)	 GET	 /hahahaha	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","content-type":"application/json","content-length":"46","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 200
+Tue Sep 20 2022 18:02:50 GMT+0200 (Central European Summer Time)	 PUT	 /hahahaha	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","content-type":"application/json","content-length":"46","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 405
+Tue Sep 20 2022 18:02:56 GMT+0200 (Central European Summer Time)	 DELETE	 /hahahaha	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","content-type":"application/json","content-length":"46","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 405
+Tue Sep 20 2022 18:03:06 GMT+0200 (Central European Summer Time)	 HEAD	 /hahahaha	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 200
+Tue Sep 20 2022 18:03:14 GMT+0200 (Central European Summer Time)	 GET	 /hahahaha	 {"user-agent":"Thunder Client (https://www.thunderclient.com)","accept":"*/*","accept-encoding":"gzip, deflate, br","host":"localhost:8080","connection":"close"}	 200
+Tue Sep 20 2022 18:03:41 GMT+0200 (Central European Summer Time)	 GET	 /	 {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","sec-fetch-site":"none","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br","accept-language":"de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"}	 200
+Tue Sep 20 2022 18:03:41 GMT+0200 (Central European Summer Time)	 GET	 /favicon.ico	 {"host":"localhost:8080","connection":"keep-alive","sec-ch-ua":"\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36","sec-ch-ua-platform":"\"Windows\"","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"http://localhost:8080/","accept-encoding":"gzip, deflate, br","accept-language":"de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"}	 200
