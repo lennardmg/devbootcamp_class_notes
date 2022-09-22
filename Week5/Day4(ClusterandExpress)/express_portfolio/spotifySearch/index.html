@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spotify Search 🔍</title>
+</head>
+
+<body>
+
+<h1 class="topHeader">My Spotify Search</h1>
+
+    <input type="text" />
+
+    <!-- drop down menu -->
+    <select>
+        <!--- make sure text album / artist is lowercase - matters when we make an ajax request -->
+        <option id="artist">artist</option>
+        <option id="album">album</option>
+    </select>
+    <!-- value in option - how we'll be able to send that value to the server in the future -->
+
+    <button id="search"> GO! </button>
+
+    <h2></h2>
+
+    <div id="results-container"></div>
+
+    <button id="more" class="hidden"> More </button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

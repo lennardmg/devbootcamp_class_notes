@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.de475f544a92347561aebffd23110d1d?rik=dviOmjMkjbPvgg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f1%2ff%2f6%2f571901.jpg&ehk=YarQghfTyR%2boYEKzC5oemhVHsV7MSp8A%2fBoOlM4PlGc%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 100% auto;
+}
+
+.topHeader {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+}
+
+img {
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: darkgoldenrod;
+}
+
+#results-container {
+    margin: 20px 40px;
+    padding: 30px;
+    /* position: absolute; */
+    width: 800px;
+}
+
+#artistName {
+    position: relative;
+    float: right;
+    font-weight: bold;
+    top: 85px;
+    right: 35%;
+}
+
+#textResults {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: mediumaquamarine;
+    border: 2px solid black;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+#more {
+    height: 40px;
+    width: 60px;
+    position: relative;
+    left: 50%;
+    border-radius: 5px;
+    font-size: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#search {
+    cursor: pointer;
+}
