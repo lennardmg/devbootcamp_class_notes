@@ -1,0 +1,22 @@
+[
+    {
+        "href": "https://www.google.com/",
+        "description": "1. Here you can find your own news: Google them"
+    },
+    {
+        "href": "https://www.spiegel.de/politik/deutschland/coronavirus-karl-lauterbach-kuendigt-angepassten-impfstoff-fuer-september-an-a-0f0e386d-c103-4691-9f10-52e45fbe54a2",
+        "description": "2. News from Germany: Lauterbach kündigt angepassten Impfstoff für 5. September an"
+    },
+    {
+        "href": "https://www.theguardian.com/world/2022/aug/29/pakistan-floods-plea-for-help-amid-fears-monsoon-could-put-a-third-of-country-underwater",
+        "description": "3. News from around the globe: Pakistan floods: plea for help amid fears monsoon could put a third of country underwater"
+    },
+    {
+        "href": "https://www.laprensani.com/2022/08/28/suplemento/la-prensa-domingo/3036040-los-ninos-que-mueren-buscando-el-norte",
+        "description": "4. News from Latin-America: Los-ninos-que-mueren-buscando-el-norte"
+    },
+    {
+        "href": "https://us.cnn.com/2022/08/29/asia/us-china-taiwan-strait-transit-intl-hnk-mic-ml/index.html",
+        "description": "5. News from the US: Why China's response to US warships in Taiwan Strait surprised analysts"
+    }
+]
