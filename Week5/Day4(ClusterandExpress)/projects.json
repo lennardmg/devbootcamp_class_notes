@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Canvas Stickfigure",
+        "directory": "/express_portfolio/canvasStickfigure/",
+        "description": "A funny stickfigure that moves around when you press the arrow-keys."
+    },
+    {
+        "title": "Connect Four",
+        "directory": "/express_portfolio/connectFour/",
+        "description": "The famous connect-four game, remastered with never seen efects."
+    },
+    {
+        "title": "Kitty Carousel",
+        "directory": "/express_portfolio/kittyCarousel/",
+        "description": "Cute kitties moving around. For pure fun purposes, there are still some bugs included."
+    },
+    {
+        "title": "Spotify Search",
+        "directory": "/express_portfolio/spotifySearch/",
+        "description": "Look for your favourite artists or particular albums. My ingenious code will show you the results and can redirect you to the Spotify website!"
+    },
+    {
+        "title": "News Ticker",
+        "directory": "/express_portfolio/Ticker/",
+        "description": "Some very interesting and informative news-headlines from all around the world. And the best? They will keep coming in forever!"
+    },
+      {
+        "title": "Panes",
+        "directory": "/express_portfolio/Panes/",
+        "description": "Which of these two pictures do you like the most? Hide the one you don't like by dragging the middle bar with your mouse."
+    }
+]

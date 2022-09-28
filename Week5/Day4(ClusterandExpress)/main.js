@@ -79,11 +79,22 @@ const basicAuth = require("basic-auth");
     /////////////////////////////////////////////////////////////////////////////////////////////////
     
 
-  app.get("/route", (req, res) => {
+///////// for the static main page:
+//   app.get("/route", (req, res) => {
  
-        res.sendFile(__dirname + "/route.html");
+//         res.sendFile(__dirname + "/route.html");
 
-  });
+//   });
+
+
+app.get("/route", (req, res) => {
+    const projects = require("./projects.json");
+    res.render("route", {
+        title: "Main Page",
+        headline: 'Here are some of my cool projects <br> @SpicedAcademy',
+        projects,
+    });
+});
 
 
   app.get("/cookie", (req, res) => {
@@ -104,5 +115,5 @@ const basicAuth = require("basic-auth");
 
 
 app.listen(PORT, () =>
-    console.log(`Express project running listening on port:${PORT}`)
+    console.log(`Express project running, listening on port:${PORT}`)
 );
