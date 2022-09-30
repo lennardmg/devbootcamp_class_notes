@@ -1,0 +1,43 @@
+NOTE FOR WSL users. When you restart your computer your database shuts down, and doesn’t automatically start up again.
+You need to run the following → sudo service postgresql start
+
+////////////////////////////
+
+name database: lennardmg
+user: lennardmg
+
+/////////////////////////////
+
+lennardmg=# SELECT * FROM actors;
+
+       Name        | Age | Number of Oscars
+-------------------+-----+------------------
+ Leonardo DiCaprio |  41 |                1
+ Jennifer Lawrence |  25 |                1
+ Samuel L. Jackson |  67 |                0
+ Maryl Streep      |  66 |                3
+ John Cho          |  43 |                0
+(5 rows)
+
+///////////////
+
+Which actors have more than one oscar?
+lennardmg=# SELECT * FROM actors WHERE "Number of Oscars" > 1;
+
+     Name     | Age | Number of Oscars
+--------------+-----+------------------
+ Maryl Streep |  66 |                3
+(1 row)
+
+///////////////
+
+Which actors are older than 30 years old?
+lennardmg=# SELECT * FROM actors WHERE Age > 30;
+
+       Name        | Age | Number of Oscars
+-------------------+-----+------------------
+ Leonardo DiCaprio |  41 |                1
+ Samuel L. Jackson |  67 |                0
+ Maryl Streep      |  66 |                3
+ John Cho          |  43 |                0
+(4 rows)
